@@ -1,0 +1,22 @@
+baseURL = "https://michaelgermaninfosec.net/"
+locale = "en-us"
+title = "Michael German | InfoSec"
+theme = "PaperMod"
+
+[params]
+  defaultTheme = "auto"
+  ShowCodeCopyButtons = true
+  ShowReadingTime = true
+
+  [params.homeInfoParams]
+    Title = "Michael German"
+    Content = "Security operations analyst. Detection engineering, incident response, and Microsoft security tooling."
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/pcmoddermike"
+
+[[menu.main]]
+  name = "Posts"
+  url = "/posts/"
+  weight = 10
