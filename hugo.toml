@@ -17,6 +17,11 @@ theme = "PaperMod"
     url = "https://github.com/pcmoddermike"
 
 [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 5
+
+[[menu.main]]
   name = "Posts"
   url = "/posts/"
   weight = 10
